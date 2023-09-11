@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 
-import ConceptItem from './ConceptItem'
+import ConceptItem from "./ConceptItem";
 
-const ConceptList = props => {
+const ConceptList = (props) => {
   return (
     <ul id="concepts">
-      {props.items.map(concept => {
+      {props.items.map((concept) => (
         <ConceptItem concept={concept} />
-      })}
+      ))}
     </ul>
-  )
-}
+  );
+};
 
-export default ConceptList
+export default ConceptList;
