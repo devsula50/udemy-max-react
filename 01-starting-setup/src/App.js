@@ -6,7 +6,6 @@ import Expenses from "./components/Expenses/Expenses";
 const App = () => {
   const addExpenseHandler = (expense) => {
     setExpenses([...expenses, expense]);
-    console.log("App ", expenses);
   };
 
   const [expenses, setExpenses] = useState([
