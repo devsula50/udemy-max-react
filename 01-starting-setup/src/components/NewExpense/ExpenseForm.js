@@ -12,6 +12,20 @@ const ExpenseForm = () => {
   //   enteredDate: "",
   // });
 
+  const inputChangeHandler = (identifier, value) => {
+    const setEntered = "setEntered";
+    // this[setEntered + identifier.charAt(0).toUpperCase() + identifier.slice(1)](
+    //   value
+    // );
+    if (identifier === "title") {
+      setEnteredTitle(value);
+    } else if (identifier === "date") {
+      setEnteredDate(value);
+    } else {
+      setEnteredAmount(value);
+    }
+  };
+
   const titleChangeHandler = (event) => {
     setEnteredTitle(event.target.value);
     // setUserInput({
@@ -45,8 +59,10 @@ const ExpenseForm = () => {
           <label>Title</label>
           <input
             type="text"
-            onChange={titleChangeHandler}
-            value={userInput.enteredTitle}
+            // onChange={titleChangeHandler}
+            onChange={(event) =>
+              inputChangeHandler("title", event.target.value)
+            }
           />
         </div>
         <div className="new-expense__control">
@@ -56,7 +72,6 @@ const ExpenseForm = () => {
             min="0.01"
             step="0.01"
             onChange={amountChangeHandler}
-            value={userInput.enteredAmount}
           />
         </div>
         <div className="new-expense__control">
@@ -66,7 +81,6 @@ const ExpenseForm = () => {
             min="2019-01-01"
             max="2022-12-31"
             onChange={dateChangeHandler}
-            value={userInput.enteredDate}
           />
         </div>
       </div>
