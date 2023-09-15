@@ -1,25 +1,26 @@
 import React from 'react'
 
 import './CalcForm.css'
-import CalcFromInput from "./CalcFromInput";
+import CalcFormInput from "./CalcFormInput";
 import ResetButton from "../shared/Button/ResetButton";
 import SubmitButton from "../shared/Button/SubmitButton";
+import Actions from "../shared/Actions";
 
 const CalcForm = () => {
   return (
     <form className="form">
       <div className={"input-group"}>
-        <CalcFromInput label={"Current Savings ($)"} id={"current-savings"} />
-        <CalcFromInput label={"Yearly Savings ($)"} id={"yearly-contribution"} />
+        <CalcFormInput label={"Current Savings ($)"} id={"current-savings"} />
+        <CalcFormInput label={"Yearly Savings ($)"} id={"yearly-contribution"} />
       </div>
       <div className="input-group">
-        <CalcFromInput label={"Expected Interest (%, per year)"} id={"expected-return"} />
-        <CalcFromInput label={"Investment Duration (years)"} id={"duration"} />
+        <CalcFormInput label={"Expected Interest (%, per year)"} id={"expected-return"} />
+        <CalcFormInput label={"Investment Duration (years)"} id={"duration"} />
       </div>
-      <p className="actions">
+      <Actions>
         <ResetButton />
         <SubmitButton text={"Calculate"} />
-      </p>
+      </Actions>
     </form>
   )
 }

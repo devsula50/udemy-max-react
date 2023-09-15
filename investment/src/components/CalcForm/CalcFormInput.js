@@ -2,7 +2,7 @@ import React from 'react'
 
 import './CalcFormInput.css'
 
-const CalcFromInput = props => {
+const CalcFormInput = props => {
   return (
     <p>
       <label htmlFor={props.id}>{props.label}</label>
@@ -11,4 +11,4 @@ const CalcFromInput = props => {
   )
 }
 
-export default CalcFromInput
+export default CalcFormInput
