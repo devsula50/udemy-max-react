@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import './CalcForm.css'
 import CalcFormInput from "./CalcFormInput";
@@ -8,8 +8,10 @@ import Actions from "../shared/Actions";
 
 const CalcForm = props => {
 
-  const submitFormHandler = () => {
 
+  const submitFormHandler = (event) => {
+    console.log('=>CalcForm submitFormHandler')
+    event.defaultPrevented()
   }
 
   return (

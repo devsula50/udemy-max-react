@@ -6,6 +6,7 @@ const CalcFormInput = props => {
   const [ enteredInput, setEnteredInput ] = useState('')
 
   const changeInputHandler = (event) => {
+    console.log('==> CalcFormInput changeInputHandler')
     setEnteredInput(event.target.value)
   }
 
