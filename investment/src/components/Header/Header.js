@@ -2,8 +2,11 @@ import React from 'react'
 
 import './Header.css'
 
-const Header = () => {
-  return
+const Header = props => {
+  return <header className="header">
+    <img src={props.logo} alt={props.alt} />
+    <h1>Investment Calculator</h1>
+  </header>
 }
 
 export default Header
