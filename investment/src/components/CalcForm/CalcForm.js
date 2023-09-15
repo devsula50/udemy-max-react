@@ -6,9 +6,14 @@ import ResetButton from "../shared/Button/ResetButton";
 import SubmitButton from "../shared/Button/SubmitButton";
 import Actions from "../shared/Actions";
 
-const CalcForm = () => {
+const CalcForm = props => {
+
+  const submitFormHandler = () => {
+
+  }
+
   return (
-    <form className="form">
+    <form onSubmit={submitFormHandler} className="form">
       <div className={"input-group"}>
         <CalcFormInput label={"Current Savings ($)"} id={"current-savings"} />
         <CalcFormInput label={"Yearly Savings ($)"} id={"yearly-contribution"} />
