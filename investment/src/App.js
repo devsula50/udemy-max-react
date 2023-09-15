@@ -12,8 +12,8 @@ function App() {
     const expectedReturn = +userInput['expected-return'] / 100;
     const duration = +userInput['duration'];
 
-    // The below code calculates yearly results (total savings, interest etc)
-    for (let i = 0; i < duration; i++) {
+    // The below code calculates yearly resu-lts (total savings, interest etc)
+    for ( let i = 0; i < duration; i++ ) {
       const yearlyInterest = currentSavings * expectedReturn;
       currentSavings += yearlyInterest + yearlyContribution;
       yearlyData.push({
