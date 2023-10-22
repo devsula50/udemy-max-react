@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e584de0c-794e-4d57-bad5-2fdb9d304c34" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../expenses-tracker/src/components/Expenses/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expenses-tracker/src/components/Expenses/ExpenseItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expenses-tracker/src/components/Expenses/Expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/../expenses-tracker/src/components/Expenses/Expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice01/src/component/ConceptItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../practice01/src/component/ConceptItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice01/src/component/ConceptList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../practice01/src/component/ConceptList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice01/src/components/ExpenseItem.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2X7VzYJ3sXHJ2UwffqeYQAAT1cD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/sulan222/ws/udemy/max/react/practice03",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e584de0c-794e-4d57-bad5-2fdb9d304c34" name="Changes" comment="" />
+      <created>1697980369476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697980369476</updated>
+      <workItem from="1697980370606" duration="6000" />
+    </task>
+    <servers />
+  </component>
+</project>
